@@ -103,26 +103,40 @@ profile-button:hover {
   padding-inline: 300px;
   border: 2px solid rgb(127, 70, 70);
   width: 150px;
-  height: 100px;
+  height: auto;
   margin: 30px;
   border-radius: 30px;
 }
+.preference1{
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+
+
+
+}
+
 
 .suggestions {
   display: inline-block;
   padding-inline: 300px;
   border: 2px solid rgb(127, 70, 70);
   width: 150px;
-  height: 100px;
+  height: auto;
   margin: 30px;
   border-radius: 30px;
+}
+.suggestions1{
+  margin-left: 300px;
+  line-height: 1.8;
+  color: aqua;
 }
 .spotify-mixes {
   display: inline-block;
   padding-inline: 300px;
   border: 2px solid rgb(127, 70, 70);
   width: 150px;
-  height: 100px;
+  height: auto;
   margin: 30px;
   border-radius: 30px;
 }
@@ -131,9 +145,14 @@ profile-button:hover {
   padding-inline: 300px;
   border: 2px solid rgb(127, 70, 70);
   width: 150px;
-  height: 100px;
+  height: auto;
   margin: 30px;
   border-radius: 30px;
+  margin: 20px;
+}
+.artist{
+  line-height:1.8;
+  margin-left: 300px;
 }
 
 /* Add more styles as needed for song controls, progress bar, etc. */
